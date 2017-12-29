@@ -36,8 +36,8 @@
       -moz-transition:0.2s ease all;
       -webkit-transition:0.2s ease all;
       }
-      input:focus ~ label, input:valid ~ label,
-      textarea:focus ~ label, textarea:valid ~ label 		{
+      input:focus ~ label, input:valid ~ label, input.ng-not-empty ~ label,
+      textarea:focus ~ label, textarea:valid ~ label,textarea.ng-not-empty ~ label 		{
       top:-20px;
       font-size:14px;
       color:#5264AE;
